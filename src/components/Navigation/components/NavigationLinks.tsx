@@ -50,7 +50,7 @@ const Wrapper = styled("div")(({ theme }) => ({
     gap: "20px",
   },
 
-  [theme.breakpoints.down("md")]: {
+  [theme.breakpoints.down("lg")]: {
     display: "none",
   },
 }));

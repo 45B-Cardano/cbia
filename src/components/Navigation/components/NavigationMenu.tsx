@@ -125,7 +125,7 @@ const StyledDropdown = styled(Collapse)({
 const Wrapper = styled("div")(({ theme }) => ({
   display: "none",
 
-  [theme.breakpoints.down("md")]: {
+  [theme.breakpoints.down("lg")]: {
     display: "block",
   },
 }));
