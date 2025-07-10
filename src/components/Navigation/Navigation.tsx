@@ -45,11 +45,13 @@ const Wrapper = styled("div")<{ scrollHeight: number }>(({ scrollHeight, theme }
   display: "flex",
   alignItems: "center",
   justifyContent: "space-between",
-  padding: "40px 200px 0 180px",
+  padding: "40px 200px 40px 180px",
   zIndex: 1000000000,
+  // background: "rgba(255, 255, 255, 0.1)",
+  background: `rgba(255, 255, 255, ${scrollHeight > 1100 ? 0.98 : 0.1})`,
 
   [theme.breakpoints.down("xl")]: {
-    padding: "33px 60px 0",
+    padding: "33px 60px 33px 60px",
   },
 
   "& .logos path": {
@@ -68,11 +70,11 @@ const Wrapper = styled("div")<{ scrollHeight: number }>(({ scrollHeight, theme }
   },
 
   "@media(max-width: 900px)": {
-    padding: "25px 40px 0",
+    padding: "25px 40px 25px 40px",
   },
 
   "@media(max-width: 600px)": {
-    padding: "17px 24px 0",
+    padding: "17px 24px 17px 24px",
   },
 }));
 
