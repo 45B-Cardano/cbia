@@ -9,6 +9,7 @@ import PrinciplesOfWork from "./components/PrinciplesOfWork";
 import Members from "./components/Members";
 import Partners from "./components/Partners";
 import { HeroBgDesktop } from "../../components/Icons/Icons";
+import Projects from "./components/Projects";
 
 const MainPage = () => {
   return (
@@ -18,6 +19,7 @@ const MainPage = () => {
       <OurMission />
       <PrinciplesOfWork />
       <Members />
+      <Projects />
       <Partners />
       <HeroBgWrapper>
         <HeroBgDesktop />

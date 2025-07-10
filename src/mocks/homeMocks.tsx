@@ -78,3 +78,24 @@ export const membersMock = [
     href: "https://koios.rest/",
   },
 ];
+
+export const projectsMock = [
+  {
+    id: 1,
+    title: "Developer Tools Compatibility Matrix Project",
+    description: `BIA was funded by Project Catalyst for this project. <br /> 
+      We see the need for a central community managed compatibility matrix for ecosystem tools. <br/>
+      Create a system for easy gathering of dependency/compatibility data across Cardano tools and expose it through insightful visualizations that enable one to browse and foresee downstream impacts.`,
+    url: "https://github.com/CardanoBlockchainInfraAlliance/developer-portal",
+    links: [
+      {
+        text: "Catalyst Proposal",
+        href: "https://projectcatalyst.io/funds/11/cardano-open-developers/cbia-add-developer-tool-compatibility-matrix-to-cardano-developers-portal",
+      },
+      {
+        text: "Project Updates",
+        href: "https://github.com/CardanoBlockchainInfraAlliance/developer-portal",
+      },
+    ],
+  },
+];
