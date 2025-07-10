@@ -48,7 +48,7 @@ const Wrapper = styled("div")<{ scrollHeight: number }>(({ scrollHeight, theme }
   padding: "40px 200px 40px 180px",
   zIndex: 1000000000,
   // background: "rgba(255, 255, 255, 0.1)",
-  background: `rgba(255, 255, 255, ${scrollHeight > 1100 ? 0.98 : 0.1})`,
+  background: `rgba(255, 255, 255, ${scrollHeight > 1100 ? 0.95 : 0.1})`,
 
   [theme.breakpoints.down("xl")]: {
     padding: "33px 60px 33px 60px",
