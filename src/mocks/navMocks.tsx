@@ -13,11 +13,16 @@ export const navMock = [
   },
   {
     id: 3,
+    label: "Members",
+    href: "#members",
+  },
+  {
+    id: 4,
     label: "Partners",
     href: "#partners",
   },
   {
-    id: 4,
+    id: 5,
     isButton: true,
     label: "Contact us",
     href: "#footer",

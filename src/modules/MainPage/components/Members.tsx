@@ -6,7 +6,7 @@ import MembersCard from "./MembersCard";
 
 const Members = () => {
   return (
-    <OuterWrapper>
+    <OuterWrapper id="members">
       <LineWrapper>
         <LineTitle variant="blockTitle" color="textColor.main">
           members
