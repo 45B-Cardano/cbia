@@ -74,22 +74,7 @@ export const membersMock = [
   },
   {
     id: 6,
-    src: "/images/home/HarmonicLabsLogo.png",
-    href: "https://www.harmoniclabs.tech/",
-  },
-  {
-    id: 7,
-    src: "/images/home/AnastasiaLabsLogo.png",
-    href: "https://anastasialabs.com/",
-  },
-  {
-    id: 8,
     src: "/images/home/KoiosLogo.png",
     href: "https://koios.rest/",
-  },
-  {
-    id: 9,
-    src: "/images/home/MafocLogo.png",
-    href: "https://captainhaskell.ee/mafoc/",
   },
 ];
